@@ -48,6 +48,7 @@
             addButton.TabIndex = 0;
             addButton.Text = "登録";
             addButton.UseVisualStyleBackColor = true;
+            addButton.Click += AddButtonClicked;
             // 
             // removeButton
             // 
@@ -57,6 +58,7 @@
             removeButton.TabIndex = 1;
             removeButton.Text = "削除";
             removeButton.UseVisualStyleBackColor = true;
+            removeButton.Click += RemoveButtonClicked;
             // 
             // price
             // 
@@ -65,6 +67,7 @@
             price.Name = "price";
             price.Size = new Size(244, 27);
             price.TabIndex = 2;
+            price.ValidatingType = typeof(DateTime);
             // 
             // bookName
             // 

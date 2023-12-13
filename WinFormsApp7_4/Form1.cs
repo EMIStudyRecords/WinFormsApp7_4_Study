@@ -6,5 +6,15 @@ namespace WinFormsApp7_4
         {
             InitializeComponent();
         }
+
+        private void AddButtonClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RemoveButtonClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
