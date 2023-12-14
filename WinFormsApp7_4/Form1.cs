@@ -18,5 +18,10 @@ namespace WinFormsApp7_4
         {
 
         }
+
+        private void bookDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
